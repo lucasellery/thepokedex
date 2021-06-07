@@ -10,14 +10,15 @@ const AppNavigator = () => {
   return (
     <PkmProvider>
       <Stack.Navigator screenOptions={{
-        headerTitle: 'Pokédex',
+        // headerTitle: 'Pokédex',
         headerStyle: {
           backgroundColor: 'red',
         },
         headerTitleStyle: {
           color: 'white',
           fontWeight: 'bold'
-        }
+        },
+        headerTintColor: 'white'
       }}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Details" component={PokemonDetails} />

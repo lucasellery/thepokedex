@@ -4,8 +4,8 @@ const LIMIT = 10;
 let currentOffset = 0;
 
 class PkmStore {
-
   pokemons = [];
+  pokemonDetail = {};
 
   async fetchPokemons(offset = 0) {
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${LIMIT}&offset=${offset}`);
@@ -35,6 +35,15 @@ class PkmStore {
   addPkmLToList = action((pokemons, pkmJson) => {
     this.pokemons = [...pokemons, ...pkmJson];
   })
+
+  setPokemonDetail = action((pokemon) => {
+    this.pokemonDetail = pokemon;
+  });
+
+  async updatePokemonDetail(name) {
+    const pkmDetail = await this.getPokemonDetail(name);
+    this.setPokemonDetail(pkmDetail);
+  }
 
   onReachEndList() {
     currentOffset += LIMIT;

@@ -1,9 +1,9 @@
 import { observer } from 'mobx-react';
 import React, { useCallback } from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, Pressable } from 'react-native';
 import addZeros from '../../../utils/addZeros';
 
-const Item = observer(({ item, index }) => {
+const PkmListItem = observer(({ item, index, onGoToDetails }) => {
 
   const addZerosCb = useCallback(() => {
     const number = `${index + 1}`;
@@ -11,7 +11,10 @@ const Item = observer(({ item, index }) => {
   }, [index]);
 
   return (
-    <View style={styles.pokemonItem}>
+    <Pressable 
+      onPress={() => onGoToDetails(item)} 
+      style={styles.pokemonItem}
+    >
       <Text style={styles.itemText}>
         #{addZerosCb()} {item.name}
       </Text>
@@ -20,11 +23,9 @@ const Item = observer(({ item, index }) => {
         style={styles.pkmLogo}
         source={{ uri: item.image }}
       />
-    </View>
+    </Pressable>
   );
 })
-
-const PkmListItem = ({ item, index }) => <Item item={item} index={index} />
 
 export default PkmListItem;
 

@@ -12,7 +12,7 @@ const HomeScreen = observer(({ navigation }) => {
     pkmStore.updatePokemonList();
   }, []);
 
-  function onGoToDetails() {
+  function onGoToDetails(pokemon) {
     navigation.navigate('Details', { pokemon });
   }
 
@@ -23,7 +23,13 @@ const HomeScreen = observer(({ navigation }) => {
       <FlatList
         data={pkmStore.pokemons}
         keyExtractor={(pokemon) => pokemon.name}
-        renderItem={PkmListItem}
+        renderItem={({item, index}) => 
+          <PkmListItem 
+            item={item} 
+            index={index} 
+            onGoToDetails={onGoToDetails} 
+          />
+        }
         onEndReached={() => pkmStore.onReachEndList()}
         onEndReachedThreshold={0.1}
         initialNumToRender={10}
