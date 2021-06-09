@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon details test should match snapshot <TopDetails /> 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+  testID="top-details"
+>
+  <View>
+    <Text
+      testID="pokedex-entry-number"
+    >
+      #032
+    </Text>
+    <Text
+      testID="pokemon-name"
+    >
+      pikachu
+    </Text>
+  </View>
+  <View>
+    <Text
+      testID="pokemon-type"
+    >
+      electric
+    </Text>
+    <Text
+      testID="pokemon-type"
+    >
+      normal
+    </Text>
+  </View>
+  <Image
+    source={
+      Object {
+        "uri": "url",
+      }
+    }
+    testID="pokemon-image"
+  />
+</View>
+`;

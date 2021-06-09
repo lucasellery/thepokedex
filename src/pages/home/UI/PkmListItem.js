@@ -14,6 +14,7 @@ const PkmListItem = observer(({ item, index, onGoToDetails }) => {
     <Pressable 
       onPress={() => onGoToDetails(item)} 
       style={styles.pokemonItem}
+      testID="list-item"
     >
       <Text style={styles.itemText}>
         #{addZerosCb()} {item.name}

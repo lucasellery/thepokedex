@@ -10,7 +10,6 @@ const AppNavigator = () => {
   return (
     <PkmProvider>
       <Stack.Navigator screenOptions={{
-        // headerTitle: 'Pokédex',
         headerStyle: {
           backgroundColor: 'red',
         },
