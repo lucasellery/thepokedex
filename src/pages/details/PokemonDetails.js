@@ -5,6 +5,7 @@ import { usePkmStore } from '../../mobx/pkmProvider';
 import { Container, Content } from '@somapay/storybook-somapay-mobile';
 import TopDetails from './UI/TopDetails';
 import { colorTypes } from '../../utils/pkmTypesColor';
+import BottomDetails from './UI/BottomDetails';
 
 const DEFAULT_COLOR = 'red';
 
@@ -37,6 +38,14 @@ const PokemonDetails = observer(({ route, navigation }) => {
           pokemonName={pokemon.name}
           pokemonTypeColor={colorTypes[pkmStore.pokemonDetail?.types?.[0]?.type?.name]}
           pokemonTypes={types}
+        />
+        <BottomDetails
+          sizeInfo={{
+            baseExperience: pkmStore.pokemonDetail.base_experience,
+            weight: pkmStore.pokemonDetail.weight,
+            height: pkmStore.pokemonDetail.height,
+          }}
+          abilites={pkmStore.pokemonDetail.abilities}
         />
       </Content>
     </Container>
