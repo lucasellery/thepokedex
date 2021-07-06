@@ -1,0 +1,504 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210706.105810.289908.0.001.json",
+    "dumpEventTime": "2021-07-06T10:58:10Z",
+    "dumpEventTimeStamp": "1625579890342",
+    "processId": 289908,
+    "cwd": "/home/lucas/Documentos/development/app/thepokedex",
+    "commandLine": [
+      "/home/lucas/.nvm/versions/node/v12.15.0/bin/node",
+      "/home/lucas/Documentos/development/app/thepokedex/node_modules/jest/bin/jest.js",
+      "--detectOpenHandles",
+      "--watch"
+    ],
+    "nodejsVersion": "v12.15.0",
+    "glibcVersionRuntime": "2.33",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.15.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.15.0/node-v12.15.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.15.0/node-v12.15.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.10.42-1-MANJARO",
+    "osVersion": "#1 SMP PREEMPT Thu Jun 3 14:37:11 UTC 2021",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2694,
+        "user": 261325000,
+        "nice": 127000,
+        "sys": 91280200,
+        "idle": 1609126200,
+        "irq": 36269800
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2710,
+        "user": 303759600,
+        "nice": 172900,
+        "sys": 77528500,
+        "idle": 48239000,
+        "irq": 8708200
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2753,
+        "user": 305979400,
+        "nice": 165600,
+        "sys": 77018800,
+        "idle": 48013300,
+        "irq": 8544400
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2731,
+        "user": 308796300,
+        "nice": 186800,
+        "sys": 77557400,
+        "idle": 47845500,
+        "irq": 8196000
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2699,
+        "user": 325510200,
+        "nice": 181900,
+        "sys": 74780100,
+        "idle": 46916200,
+        "irq": 8166700
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2701,
+        "user": 310088500,
+        "nice": 172800,
+        "sys": 77082200,
+        "idle": 47708200,
+        "irq": 8597100
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2739,
+        "user": 311519800,
+        "nice": 177200,
+        "sys": 82063900,
+        "idle": 47762600,
+        "irq": 8871500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2709,
+        "user": 313024200,
+        "nice": 187000,
+        "sys": 75665300,
+        "idle": 47879200,
+        "irq": 7986400
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp2s0",
+        "internal": false,
+        "mac": "5c:cd:5b:89:6a:75",
+        "address": "192.168.47.236",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp2s0",
+        "internal": false,
+        "mac": "5c:cd:5b:89:6a:75",
+        "address": "fe80::f029:5788:82a8:e5e2",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      }
+    ],
+    "host": "lucas-81v8"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b05e75",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000009dbda3",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b3b45e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b3b7d9",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce6b75",
+      "symbol": " [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce7206",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf309a",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf3fa5",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf69b8",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cbd2e7",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ff334b",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000001376519",
+      "symbol": " [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2167779328,
+    "totalCommittedMemory": 2161321136,
+    "usedMemory": 2144854160,
+    "availableMemory": 46041360,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 32568,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 16777216,
+        "committedMemory": 11753576,
+        "capacity": 8379904,
+        "used": 3686568,
+        "available": 4693336
+      },
+      "old_space": {
+        "memorySize": 2124787712,
+        "committedMemory": 2123717040,
+        "capacity": 2122524336,
+        "used": 2119821760,
+        "available": 2702576
+      },
+      "code_space": {
+        "memorySize": 1474560,
+        "committedMemory": 1341024,
+        "capacity": 1155200,
+        "used": 1155200,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 5771264,
+        "committedMemory": 5770496,
+        "capacity": 1541120,
+        "used": 1541120,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 18657280,
+        "committedMemory": 18657280,
+        "capacity": 18613664,
+        "used": 18613664,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 8379904,
+        "used": 0,
+        "available": 8379904
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 202.488,
+    "kernelCpuSeconds": 12.5036,
+    "cpuConsumptionPercent": 12.1327,
+    "maxRss": 2279264256,
+    "pageFaults": {
+      "IORequired": 6,
+      "IONotRequired": 1821979
+    },
+    "fsActivity": {
+      "reads": 1288,
+      "writes": 16
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 146.798,
+    "kernelCpuSeconds": 9.12247,
+    "cpuConsumptionPercent": 8.7991,
+    "fsActivity": {
+      "reads": 680,
+      "writes": 16
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "SHELL": "/usr/bin/zsh",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "SESSION_MANAGER": "local/lucas-81v8:@/tmp/.ICE-unix/1032,unix/lucas-81v8:/tmp/.ICE-unix/1032",
+    "QT_SCREEN_SCALE_FACTORS": "eDP-1=1.25;HDMI-1=1.25;",
+    "COLORTERM": "truecolor",
+    "npm_package_dependencies_react_native_paper": "^4.9.1",
+    "npm_package_scripts_android": "expo start --android",
+    "LESS": "-R",
+    "npm_package_main": "node_modules/expo/AppEntry.js",
+    "XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session0",
+    "NVM_INC": "/home/lucas/.nvm/versions/node/v12.15.0/include/node",
+    "TERM_PROGRAM_VERSION": "1.57.1",
+    "npm_package_jest_preset": "jest-expo",
+    "npm_package_dependencies__somapay_storybook_somapay_mobile": "^1.4.76",
+    "npm_package_scripts_web": "expo start --web",
+    "NODE": "/home/lucas/.nvm/versions/node/v12.15.0/bin/node",
+    "npm_config_ignore_scripts": "",
+    "LC_ADDRESS": "pt_BR.UTF-8",
+    "LC_NAME": "pt_BR.UTF-8",
+    "BREAKPAD_DUMP_LOCATION": "/home/lucas/.config/Code/exthost Crash Reports",
+    "npm_package_private": "true",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"test\"],\"original\":[\"test\",\"--watch\"]}",
+    "npm_package_scripts_ios": "expo start --ios",
+    "npm_config_bin_links": "true",
+    "DESKTOP_SESSION": "plasma",
+    "LC_MONETARY": "pt_BR.UTF-8",
+    "GTK_RC_FILES": "/etc/gtk/gtkrc:/home/lucas/.gtkrc:/home/lucas/.config/gtkrc",
+    "NO_AT_BRIDGE": "1",
+    "XCURSOR_SIZE": "24",
+    "EDITOR": "/usr/bin/nano",
+    "npm_package_dependencies_react_native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "npm_package_dependencies_mobx": "^6.3.2",
+    "GTK_MODULES": "canberra-gtk-module",
+    "XDG_SEAT": "seat0",
+    "PWD": "/home/lucas/Documentos/development/app/thepokedex",
+    "npm_config_save_prefix": "^",
+    "LOGNAME": "lucas",
+    "XDG_SESSION_DESKTOP": "KDE",
+    "XDG_SESSION_TYPE": "x11",
+    "npm_package_dependencies_react": "16.13.1",
+    "npm_package_jest_verbose": "true",
+    "npm_package_devDependencies__babel_core": "^7.9.0",
+    "_": "/home/lucas/Documentos/development/app/thepokedex/node_modules/.bin/jest",
+    "XAUTHORITY": "/home/lucas/.Xauthority",
+    "npm_package_dependencies__react_navigation_stack": "^5.14.5",
+    "VSCODE_GIT_ASKPASS_NODE": "/opt/visual-studio-code/code",
+    "npm_package_dependencies_mobx_react": "^7.2.0",
+    "npm_package_dependencies_react_native_safe_area_context": "3.2.0",
+    "MOTD_SHOWN": "pam",
+    "GTK2_RC_FILES": "/etc/gtk-2.0/gtkrc:/home/lucas/.gtkrc-2.0:/home/lucas/.config/gtkrc-2.0",
+    "HOME": "/home/lucas",
+    "npm_config_version_git_tag": "true",
+    "npm_package_jest_transformIgnorePatterns_0": "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*|@somapay/storybook-somapay-mobile)",
+    "LC_PAPER": "pt_BR.UTF-8",
+    "LANG": "pt_BR.UTF-8",
+    "npm_package_devDependencies_typescript": "~4.0.0",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "XDG_CURRENT_DESKTOP": "KDE",
+    "npm_config_init_license": "MIT",
+    "npm_package_version": "",
+    "npm_config_version_commit_hooks": "true",
+    "npm_package_dependencies_react_native_reanimated": "~2.1.0",
+    "npm_package_dependencies_react_native_screens": "~3.0.0",
+    "GIT_ASKPASS": "/opt/visual-studio-code/resources/app/extensions/git/dist/askpass.sh",
+    "XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
+    "npm_package_dependencies_expo_status_bar": "~1.0.4",
+    "npm_package_devDependencies_react_test_renderer": "^17.0.2",
+    "INIT_CWD": "/home/lucas/Documentos/development/app/thepokedex",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "KDE_SESSION_UID": "1000",
+    "npm_lifecycle_script": "jest --detectOpenHandles",
+    "NVM_DIR": "/home/lucas/.nvm",
+    "npm_config_version_tag_prefix": "v",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_package_jest_setupFilesAfterEnv_1": "./node_modules/react-native-gesture-handler/jestSetup.js",
+    "npm_package_jest_setupFilesAfterEnv_0": "@testing-library/jest-native/extend-expect",
+    "npm_package_dependencies_react_native_gesture_handler": "~1.10.2",
+    "XDG_SESSION_CLASS": "user",
+    "TERM": "xterm-256color",
+    "LC_IDENTIFICATION": "pt_BR.UTF-8",
+    "npm_package_name": "",
+    "ZSH": "/home/lucas/.oh-my-zsh",
+    "npm_package_scripts_eject": "expo eject",
+    "npm_package_jest_testTimeout": "100000",
+    "npm_package_jest_setupFiles_0": "./config/setupFiles.js",
+    "USER": "lucas",
+    "npm_package_dependencies__react_navigation_native": "^5.9.4",
+    "VSCODE_GIT_IPC_HANDLE": "/run/user/1000/vscode-git-e20cb4a612.sock",
+    "npm_package_dependencies_react_dom": "16.13.1",
+    "KDE_SESSION_VERSION": "5",
+    "PAM_KWALLET5_LOGIN": "/run/user/1000/kwallet5.socket",
+    "DISPLAY": ":0",
+    "npm_lifecycle_event": "test",
+    "SHLVL": "1",
+    "npm_config_version_git_sign": "",
+    "NVM_CD_FLAGS": "-q",
+    "npm_config_version_git_message": "v%s",
+    "PAGER": "less",
+    "LC_TELEPHONE": "pt_BR.UTF-8",
+    "LC_MEASUREMENT": "pt_BR.UTF-8",
+    "XDG_VTNR": "1",
+    "npm_package_devDependencies__testing_library_react_hooks": "^7.0.0",
+    "XDG_SESSION_ID": "1",
+    "QT_LINUX_ACCESSIBILITY_ALWAYS_ON": "1",
+    "npm_config_user_agent": "yarn/1.22.10 npm/? node/v12.15.0 linux x64",
+    "npm_execpath": "/home/lucas/.nvm/versions/node/v12.15.0/lib/node_modules/yarn/bin/yarn.js",
+    "npm_package_scripts_test": "jest --detectOpenHandles",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "npm_config_strict_ssl": "true",
+    "LC_TIME": "pt_BR.UTF-8",
+    "VSCODE_GIT_ASKPASS_MAIN": "/opt/visual-studio-code/resources/app/extensions/git/dist/askpass-main.js",
+    "QT_AUTO_SCREEN_SCALE_FACTOR": "0",
+    "npm_package_devDependencies__testing_library_jest_native": "^4.0.1",
+    "XCURSOR_THEME": "Oxygen_Zion",
+    "GTK3_MODULES": "xapp-gtk3-module",
+    "XDG_DATA_DIRS": "/home/lucas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "GDK_BACKEND": "x11",
+    "KDE_FULL_SESSION": "true",
+    "npm_package_scripts_start": "expo start",
+    "BROWSER": "/usr/bin/firefox",
+    "PATH": "/tmp/yarn--1625578118138-0.9222531519332362:/home/lucas/Documentos/development/app/thepokedex/node_modules/.bin:/home/lucas/.config/yarn/link/node_modules/.bin:/home/lucas/.yarn/bin:/home/lucas/.nvm/versions/node/v12.15.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/lucas/.nvm/versions/node/v12.15.0/lib/node_modules/npm/bin/node-gyp-bin:/home/lucas/.nvm/versions/node/v12.15.0/bin/node_modules/npm/bin/node-gyp-bin:/home/lucas/.nvm/versions/node/v12.15.0/bin:/home/lucas/.local/bin:/home/lucas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "KDE",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "KDE_APPLICATIONS_AS_SCOPE": "1",
+    "NVM_BIN": "/home/lucas/.nvm/versions/node/v12.15.0/bin",
+    "MAIL": "/var/spool/mail/lucas",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_package_dependencies__react_native_community_masked_view": "0.1.10",
+    "npm_config_ignore_optional": "",
+    "npm_package_dependencies_react_native_web": "~0.13.12",
+    "npm_package_dependencies_expo": "~41.0.1",
+    "npm_node_execpath": "/home/lucas/.nvm/versions/node/v12.15.0/bin/node",
+    "LC_NUMERIC": "pt_BR.UTF-8",
+    "npm_package_devDependencies__testing_library_react_native": "^7.2.0",
+    "OLDPWD": "/home/lucas/Documentos/development/app/thepokedex",
+    "npm_package_devDependencies_jest_expo": "^41.0.0",
+    "TERM_PROGRAM": "vscode",
+    "npm_config_init_version": "1.0.0",
+    "NODE_ENV": "test",
+    "JEST_WORKER_ID": "1"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 524288,
+      "hard": 524288
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 79518,
+      "hard": 79518
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/usr/lib/libdl.so.2",
+    "/usr/lib/libstdc++.so.6",
+    "/usr/lib/libm.so.6",
+    "/usr/lib/libgcc_s.so.1",
+    "/usr/lib/libpthread.so.0",
+    "/usr/lib/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}

@@ -2,6 +2,7 @@ import { observer } from 'mobx-react';
 import React, { useCallback } from 'react';
 import { View, Text, Image, StyleSheet, Pressable } from 'react-native';
 import addZeros from '../../../utils/addZeros';
+import { toCaptalize } from '../../../utils/toCaptalize';
 
 const PkmListItem = observer(({ item, index, onGoToDetails }) => {
 
@@ -17,7 +18,7 @@ const PkmListItem = observer(({ item, index, onGoToDetails }) => {
       testID="list-item"
     >
       <Text style={styles.itemText}>
-        #{addZerosCb()} {item.name}
+        #{addZerosCb()} {toCaptalize(item.name)}
       </Text>
       <Image
         resizeMode="contain"

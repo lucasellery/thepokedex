@@ -62,7 +62,7 @@ describe('Pokemon details test', () => {
     const component = render(<TopDetails 
       pokemonImage={url}
       pokemonName={pokemonName} 
-      pokemonTypes={pokemonTypes} 
+      pokemonTypes={pokemonTypes}
       pokedexEntry={pokedexEntry} />).toJSON()
     expect(component).toMatchSnapshot()
   })

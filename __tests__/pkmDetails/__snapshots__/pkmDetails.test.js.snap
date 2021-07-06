@@ -3,40 +3,109 @@
 exports[`Pokemon details test should match snapshot <TopDetails /> 1`] = `
 <View
   style={
-    Object {
-      "backgroundColor": undefined,
-    }
+    Array [
+      Object {
+        "padding": 20,
+        "paddingBottom": 100,
+      },
+      Object {
+        "backgroundColor": undefined,
+      },
+    ]
   }
   testID="top-details"
 >
-  <View>
-    <Text
-      testID="pokedex-entry-number"
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 10,
+          }
+        }
+        testID="pokedex-entry-number"
+      >
+        #032
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 32,
+            "fontWeight": "bold",
+          }
+        }
+        testID="pokemon-name"
+      >
+        pikachu
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "flexDirection": "row",
+        }
+      }
     >
-      #032
-    </Text>
-    <Text
-      testID="pokemon-name"
-    >
-      pikachu
-    </Text>
-  </View>
-  <View>
-    <Text
-      testID="pokemon-type"
-    >
-      electric
-    </Text>
-    <Text
-      testID="pokemon-type"
-    >
-      normal
-    </Text>
+      <Text
+        style={
+          Object {
+            "backgroundColor": "rgba(0, 0, 0, 0.1)",
+            "borderRadius": 20,
+            "color": "#FFFFFF",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginHorizontal": 2.5,
+            "paddingHorizontal": 10,
+            "paddingVertical": 5,
+          }
+        }
+        testID="pokemon-type"
+      >
+        electric
+      </Text>
+      <Text
+        style={
+          Object {
+            "backgroundColor": "rgba(0, 0, 0, 0.1)",
+            "borderRadius": 20,
+            "color": "#FFFFFF",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginHorizontal": 2.5,
+            "paddingHorizontal": 10,
+            "paddingVertical": 5,
+          }
+        }
+        testID="pokemon-type"
+      >
+        normal
+      </Text>
+    </View>
   </View>
   <Image
     source={
       Object {
         "uri": "url",
+      }
+    }
+    style={
+      Object {
+        "height": 120,
+        "position": "absolute",
+        "right": 0,
+        "top": 35,
+        "width": 120,
       }
     }
     testID="pokemon-image"

@@ -3,6 +3,8 @@ import { render } from '@testing-library/react-native'
 
 import BottomDetails from '../../src/pages/details/UI/BottomDetails';
 import SizeInfo from '../../src/pages/details/UI/SizeInfo';
+import Abilities from '../../src/pages/details/UI/Abilities';
+import { toCaptalize } from '../../src/utils/toCaptalize';
 
 describe("Pkm Details Bottom Tests", () => {
     
@@ -41,4 +43,52 @@ describe("Pkm Details Bottom Tests", () => {
 		const baseXpProp = queryByTestId('base-experience-info')
 		expect(baseXpProp.props.children).toBe(baseExperience)
 	})
+
+	it('should match snapshot <SizeInfo />', () => {
+    const weight = 60
+    const height = 70
+    const baseExpericence = 112
+    const component = render(
+      <SizeInfo
+        baseExpericence={baseExpericence}
+        height={height}
+        weight={weight} />
+    ).toJSON()
+
+    expect(component).toMatchSnapshot()
+  })
+
+	// Abilities
+
+	it('should render Abilities correctly', async () => {
+		const { queryByTestId } = render(<Abilities />)
+		const component = queryByTestId('abilities-component')
+		expect(component).toBeTruthy()
+	})
+
+	it('should render an array of abilities', () => {
+		const abilities = [
+			{
+				ability: {
+					name: 'static'
+				}
+			},
+			{
+				ability: {
+					name: 'poison pin'
+				}
+			},
+		]
+
+		const { queryAllByTestId } = render(<Abilities abilities={abilities} />)
+		const componentArray = queryAllByTestId('ability')
+		expect(componentArray.length).toBeGreaterThan(0)
+
+		componentArray.forEach((comp, index) => {
+			expect(comp.props.children).toBe(toCaptalize(abilities[index].ability.name))
+		})
+
+	})
+
+
 })

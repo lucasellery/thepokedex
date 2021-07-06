@@ -14,17 +14,17 @@ export type SizeInfoProps = {
 const SizeInfo: React.FC<SizeInfoProps> = observer(({ weight, height, baseExperience }) => {
   return (
     <View style={styles.container} testID="size-info">
-      <View>
+      <View style={styles.infoContainer}>
         <Text style={styles.information} testID="height-info">{height ? `${height / 10}m`.replace('.', ',') : '?'}</Text>
         <Text>Height</Text>
       </View>
-      <View>
+      <View style={styles.infoContainer}>
         <Text style={styles.information} testID="weight">{weight ? `${weight / 10}kg` : '?'}</Text>
         <Text>Weight</Text>
       </View>
-      <View>
+      <View style={styles.infoContainer}>
         <Text style={styles.information} testID="base-experience-info">{baseExperience ? baseExperience : '?'}</Text>
-        <Text>Base experience</Text>
+        <Text>Base XP</Text>
       </View>
     </View>
   );
@@ -50,5 +50,9 @@ const styles = StyleSheet.create({
     fontSize: 12,
     lineHeight: 16,
     textAlign: 'center',
+  },
+  infoContainer: {
+    flexDirection: 'column',
+    alignItems: 'center'
   }
 })

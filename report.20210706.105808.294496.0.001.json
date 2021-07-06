@@ -1,0 +1,448 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210706.105808.294496.0.001.json",
+    "dumpEventTime": "2021-07-06T10:58:08Z",
+    "dumpEventTimeStamp": "1625579888993",
+    "processId": 294496,
+    "cwd": "/home/lucas/Documentos/development/app/thepokedex",
+    "commandLine": [
+      "/home/lucas/.nvm/versions/node/v12.15.0/bin/node",
+      "/home/lucas/Documentos/development/app/thepokedex/node_modules/jest-worker/build/workers/processChild.js"
+    ],
+    "nodejsVersion": "v12.15.0",
+    "glibcVersionRuntime": "2.33",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.15.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.15.0/node-v12.15.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.15.0/node-v12.15.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.10.42-1-MANJARO",
+    "osVersion": "#1 SMP PREEMPT Thu Jun 3 14:37:11 UTC 2021",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2900,
+        "user": 261320800,
+        "nice": 126800,
+        "sys": 91276900,
+        "idle": 1609121400,
+        "irq": 36269500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2900,
+        "user": 303756200,
+        "nice": 172600,
+        "sys": 77523200,
+        "idle": 48234700,
+        "irq": 8708100
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2900,
+        "user": 305970400,
+        "nice": 165600,
+        "sys": 77018100,
+        "idle": 48009800,
+        "irq": 8544300
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2899,
+        "user": 308791500,
+        "nice": 186700,
+        "sys": 77554900,
+        "idle": 47840300,
+        "irq": 8195900
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2899,
+        "user": 325503100,
+        "nice": 181800,
+        "sys": 74776000,
+        "idle": 46914500,
+        "irq": 8166700
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2900,
+        "user": 310087300,
+        "nice": 172400,
+        "sys": 77072800,
+        "idle": 47705900,
+        "irq": 8597000
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2900,
+        "user": 311515200,
+        "nice": 177000,
+        "sys": 82061300,
+        "idle": 47757200,
+        "irq": 8871400
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "speed": 2900,
+        "user": 313023200,
+        "nice": 186900,
+        "sys": 75655800,
+        "idle": 47877200,
+        "irq": 7986300
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp2s0",
+        "internal": false,
+        "mac": "5c:cd:5b:89:6a:75",
+        "address": "192.168.47.236",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp2s0",
+        "internal": false,
+        "mac": "5c:cd:5b:89:6a:75",
+        "address": "fe80::f029:5788:82a8:e5e2",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 2
+      }
+    ],
+    "host": "lucas-81v8"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b05e75",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000009dbda3",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b3b45e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b3b7d9",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce6b75",
+      "symbol": " [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce7206",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf309a",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf3fa5",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf69b8",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cbd2e7",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ff334b",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000001376519",
+      "symbol": " [/home/lucas/.nvm/versions/node/v12.15.0/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2151211008,
+    "totalCommittedMemory": 2148900120,
+    "usedMemory": 2143366632,
+    "availableMemory": 50513072,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 32568,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 1490064,
+        "capacity": 1047488,
+        "used": 473080,
+        "available": 574408
+      },
+      "old_space": {
+        "memorySize": 2143137792,
+        "committedMemory": 2141900128,
+        "capacity": 2140275608,
+        "used": 2138218296,
+        "available": 2057312
+      },
+      "code_space": {
+        "memorySize": 688128,
+        "committedMemory": 589568,
+        "capacity": 440352,
+        "used": 440352,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2101248,
+        "committedMemory": 1963248,
+        "capacity": 1339200,
+        "used": 1339200,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 2875392,
+        "committedMemory": 2875392,
+        "capacity": 2859856,
+        "used": 2859856,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 73.8244,
+    "kernelCpuSeconds": 1.46583,
+    "cpuConsumptionPercent": 139.426,
+    "maxRss": 2225786880,
+    "pageFaults": {
+      "IORequired": 16,
+      "IONotRequired": 581173
+    },
+    "fsActivity": {
+      "reads": 1936,
+      "writes": 16
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 41.1274,
+    "kernelCpuSeconds": 0.616459,
+    "cpuConsumptionPercent": 77.3034,
+    "fsActivity": {
+      "reads": 1936,
+      "writes": 16
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "SHELL": "/usr/bin/zsh",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "SESSION_MANAGER": "local/lucas-81v8:@/tmp/.ICE-unix/1032,unix/lucas-81v8:/tmp/.ICE-unix/1032",
+    "QT_SCREEN_SCALE_FACTORS": "eDP-1=1.25;HDMI-1=1.25;",
+    "VSCODE_VERBOSE_LOGGING": "true",
+    "LESS": "-R",
+    "XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session0",
+    "NVM_INC": "/home/lucas/.nvm/versions/node/v12.15.0/include/node",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "VSCODE_LOG_STACK": "false",
+    "LANGUAGE": "",
+    "LC_ADDRESS": "pt_BR.UTF-8",
+    "LC_NAME": "pt_BR.UTF-8",
+    "BREAKPAD_DUMP_LOCATION": "/home/lucas/.config/Code/exthost Crash Reports",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "DESKTOP_SESSION": "plasma",
+    "VSCODE_PIPE_LOGGING": "true",
+    "LC_MONETARY": "pt_BR.UTF-8",
+    "GTK_RC_FILES": "/etc/gtk/gtkrc:/home/lucas/.gtkrc:/home/lucas/.config/gtkrc",
+    "NO_AT_BRIDGE": "1",
+    "XCURSOR_SIZE": "24",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/services/extensions/node/extensionHostProcess",
+    "EDITOR": "/usr/bin/nano",
+    "GTK_MODULES": "canberra-gtk-module",
+    "XDG_SEAT": "seat0",
+    "PWD": "/home/lucas/Documentos/development/app/thepokedex",
+    "LOGNAME": "lucas",
+    "XDG_SESSION_DESKTOP": "KDE",
+    "XDG_SESSION_TYPE": "x11",
+    "_": "/home/lucas/Documentos/development/app/thepokedex/node_modules/.bin/jest",
+    "XAUTHORITY": "/home/lucas/.Xauthority",
+    "MOTD_SHOWN": "pam",
+    "GTK2_RC_FILES": "/etc/gtk-2.0/gtkrc:/home/lucas/.gtkrc-2.0:/home/lucas/.config/gtkrc-2.0",
+    "HOME": "/home/lucas",
+    "LC_PAPER": "pt_BR.UTF-8",
+    "LANG": "pt_BR.UTF-8",
+    "VSCODE_IPC_HOOK_EXTHOST": "/run/user/1000/vscode-ipc-505d5bcd-98d4-4270-9b70-ba9f1478ce70.sock",
+    "LS_COLORS": "",
+    "XDG_CURRENT_DESKTOP": "KDE",
+    "VSCODE_IPC_HOOK": "/run/user/1000/vscode-f23a0542-1.57.1-main.sock",
+    "XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "KDE_SESSION_UID": "1000",
+    "NVM_DIR": "/home/lucas/.nvm",
+    "XDG_SESSION_CLASS": "user",
+    "LC_IDENTIFICATION": "pt_BR.UTF-8",
+    "ZSH": "/home/lucas/.oh-my-zsh",
+    "USER": "lucas",
+    "KDE_SESSION_VERSION": "5",
+    "PAM_KWALLET5_LOGIN": "/run/user/1000/kwallet5.socket",
+    "DISPLAY": ":0",
+    "VSCODE_PID": "277821",
+    "SHLVL": "0",
+    "NVM_CD_FLAGS": "-q",
+    "PAGER": "less",
+    "LC_TELEPHONE": "pt_BR.UTF-8",
+    "LC_MEASUREMENT": "pt_BR.UTF-8",
+    "VSCODE_CWD": "/home/lucas",
+    "XDG_VTNR": "1",
+    "XDG_SESSION_ID": "1",
+    "QT_LINUX_ACCESSIBILITY_ALWAYS_ON": "1",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "VSCODE_CRASH_REPORTER_START_OPTIONS": "{\"companyName\":\"Microsoft\",\"productName\":\"VSCode\",\"submitURL\":\"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=449e447b-16e3-4cf1-8657-f3a505e739d7&iid=449e447b-16e3-4cf1-8657-f3a505e739d7&sid=449e447b-16e3-4cf1-8657-f3a505e739d7\",\"uploadToServer\":true}",
+    "LC_TIME": "pt_BR.UTF-8",
+    "QT_AUTO_SCREEN_SCALE_FACTOR": "0",
+    "XCURSOR_THEME": "Oxygen_Zion",
+    "GTK3_MODULES": "xapp-gtk3-module",
+    "XDG_DATA_DIRS": "/home/lucas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "GDK_BACKEND": "x11",
+    "KDE_FULL_SESSION": "true",
+    "BROWSER": "/usr/bin/firefox",
+    "PATH": "/home/lucas/.nvm/versions/node/v12.15.0/bin:/home/lucas/.local/bin:/home/lucas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin",
+    "CI": "true",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "KDE",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "VSCODE_NODE_CACHED_DATA_DIR": "/home/lucas/.config/Code/CachedData/507ce72a4466fbb27b715c3722558bb15afa9f48",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"pt-br\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "KDE_APPLICATIONS_AS_SCOPE": "1",
+    "NVM_BIN": "/home/lucas/.nvm/versions/node/v12.15.0/bin",
+    "MAIL": "/var/spool/mail/lucas",
+    "VSCODE_LOG_NATIVE": "false",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "LC_NUMERIC": "pt_BR.UTF-8",
+    "OLDPWD": "/home/lucas",
+    "NODE_ENV": "test",
+    "JEST_WORKER_ID": "1"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 524288,
+      "hard": 524288
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 79518,
+      "hard": 79518
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/usr/lib/libdl.so.2",
+    "/usr/lib/libstdc++.so.6",
+    "/usr/lib/libm.so.6",
+    "/usr/lib/libgcc_s.so.1",
+    "/usr/lib/libpthread.so.0",
+    "/usr/lib/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}

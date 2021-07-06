@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pkm Details Bottom Tests should match snapshot <SizeInfo /> 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexGrow": 1,
+      "justifyContent": "space-around",
+      "paddingTop": 20,
+    }
+  }
+  testID="size-info"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "lineHeight": 26,
+          "textAlign": "center",
+        }
+      }
+      testID="height-info"
+    >
+      7m
+    </Text>
+    <Text>
+      Height
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "lineHeight": 26,
+          "textAlign": "center",
+        }
+      }
+      testID="weight"
+    >
+      6kg
+    </Text>
+    <Text>
+      Weight
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "lineHeight": 26,
+          "textAlign": "center",
+        }
+      }
+      testID="base-experience-info"
+    >
+      ?
+    </Text>
+    <Text>
+      Base XP
+    </Text>
+  </View>
+</View>
+`;
